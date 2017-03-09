@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_url">https://www.cbr.ru/scripts/XML_daily.asp</string>
+    <string name="load_data_broadcast_action">com.goodelephantlab.currencyconverter.splashscreenactivity</string>
+    <string name="loading_result">loading_result</string>
+    <integer name="loading_result_success">0</integer>
+    <integer name="loading_result_error">1</integer>
+    <integer name="read_timeout">10000</integer>
+    <integer name="rub_nominal">1</integer>
+    <integer name="rub_num_code">643</integer>
+    <integer name="loading_result_unknown">-1</integer>
+    <string name="loading_error">loading_error</string>
+    <string name="start_currency_id">start_currency_id</string>
+    <string name="finish_currency_id">finish_currency_id</string>
+    <string name="rub_id">R00000</string>
+    <string name="usd_id">R01235</string>
+    <string name="selection_dialog_names_arg_id">dialog_names_id</string>
+    <string name="selection_dialog_flags_arg_id">dialog_flags_id</string>
+    <string name="selection_dialog_clicked_preference_id">dialog_clicked_view_id</string>
+    <string name="charset_name">windows-1251</string>
+    <string name="rub_char_code">RUB</string>
+    <string name="rub_flag_name">rub_</string>
+    <string name="rub_name">Российский рубль</string>
+    <string name="rub_value">1.0</string>
+</resources>

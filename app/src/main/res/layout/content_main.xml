@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_padding">
+
+        <LinearLayout
+            android:id="@+id/start_currency_label_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical|start"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageButton
+                android:id="@+id/start_currency_flag_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_btn_background"
+                android:elevation="@dimen/standard_elevation"
+                android:stateListAnimator="@drawable/image_button_ripple"
+                android:layout_marginTop="@dimen/elevation_vertical_margin"
+                android:layout_marginBottom="@dimen/elevation_vertical_margin"
+                android:layout_marginLeft="@dimen/elevation_horizontal_margin"
+                android:layout_marginRight="@dimen/elevation_horizontal_margin"
+                android:layout_marginStart="@dimen/elevation_horizontal_margin"
+                android:layout_marginEnd="@dimen/elevation_horizontal_margin"/>
+
+            <TextView
+                android:id="@+id/start_currency_text_view"
+                style="@style/MainTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/start_currency_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/currency_edit_text_min_width"
+            android:layout_centerHorizontal="true"
+            android:maxLength="25"
+            android:layout_below="@id/start_currency_label_wrapper"
+            android:inputType="numberDecimal"/>
+
+        <LinearLayout
+            android:id="@+id/finish_currency_label_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical|start"
+            android:layout_marginTop="@dimen/big_margin"
+            android:layout_alignLeft="@id/start_currency_label_wrapper"
+            android:layout_alignStart="@id/start_currency_label_wrapper"
+            android:layout_below="@id/start_currency_edit_text">
+
+            <ImageButton
+                android:id="@+id/finish_currency_flag_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_btn_background"
+                android:elevation="@dimen/standard_elevation"
+                android:stateListAnimator="@drawable/image_button_ripple"
+                android:layout_marginTop="@dimen/elevation_vertical_margin"
+                android:layout_marginBottom="@dimen/elevation_vertical_margin"
+                android:layout_marginLeft="@dimen/elevation_horizontal_margin"
+                android:layout_marginRight="@dimen/elevation_horizontal_margin"
+                android:layout_marginStart="@dimen/elevation_horizontal_margin"
+                android:layout_marginEnd="@dimen/elevation_horizontal_margin"/>
+
+            <TextView
+                android:id="@+id/finish_currency_text_view"
+                style="@style/MainTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/finish_currency_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/currency_edit_text_min_width"
+            android:layout_centerHorizontal="true"
+            android:maxLength="25"
+            android:layout_below="@id/finish_currency_label_wrapper"
+            android:inputType="numberDecimal"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

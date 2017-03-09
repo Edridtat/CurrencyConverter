@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="currency_loader" type="id">currency_loader</item>
+    <item name="all_currency_loader" type="id">all_currency_loader</item>
+</resources>

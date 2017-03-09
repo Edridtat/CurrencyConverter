@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/small_padding"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/currency_image_view"
+        android:layout_width="@dimen/currency_selector_image_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/currency_name_text_view"
+        style="@style/MainTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/currency_image_view"
+        android:layout_toEndOf="@id/currency_image_view"/>
+
+</RelativeLayout>

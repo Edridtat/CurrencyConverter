@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="internet_error">Internet error</string>
+    <string name="unknown_error">Unknown error</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">280dp</dimen>
+    <dimen name="flag_image_width">50dp</dimen>
+    <dimen name="standard_margin">10dp</dimen>
+    <dimen name="currency_edit_text_min_width">250dp</dimen>
+    <dimen name="main_text_size">17sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="big_margin">25dp</dimen>
+    <dimen name="standard_elevation">8dp</dimen>
+    <dimen name="press_elevation">8dp</dimen>
+    <dimen name="activity_padding">20dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="currency_selector_image_width">40dp</dimen>
+    <dimen name="elevation_vertical_margin">25dp</dimen>
+    <dimen name="elevation_horizontal_margin">15dp</dimen>
+</resources>

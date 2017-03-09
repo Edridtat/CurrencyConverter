@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер Валют</string>
+    <string name="internet_error">Отсутствует подключение к сети интернет</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+</resources>
